@@ -110,7 +110,7 @@ wget -O xraay "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/menu
 wget -O xp "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/xp.sh"
 wget -O port-xray "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/change-port/port-xray.sh"
 wget -O themes "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/menu/themes.sh"
-wget -O autobackup "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/system/backupBot.sh"
+wget -O autobackup "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/system/autobackup.sh"
 wget -O backup "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/system/backup.sh"
 wget -O bckp "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/system/bckp.sh"
 wget -O restore "https://raw.githubusercontent.com/${GitUser}/hasilsenip/main/system/restore.sh"
