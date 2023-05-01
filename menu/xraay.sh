@@ -1205,7 +1205,6 @@ xraay
 function menu12 () {
 clear
 echo -n > /tmp/other.txt
-data=echo -n > /tmp/other.txt
 data=( ` cat /usr/local/etc/xray/vless.json | grep '^vls' | cut -d ' ' -f 2`);
 echo -e "-------------------------------";
 echo -e "${green}XRAY VLESS WS USER LOGIN${NC}";
