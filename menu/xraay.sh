@@ -1205,10 +1205,11 @@ xraay
 function menu12 () {
 clear
 echo -n > /tmp/other.txt
-data=( `cat /usr/local/etc/xray/vless.json | grep '^###' | cut -d ' ' -f 2`);
-echo -e "\033[0;34m══════════════════════════════════════════\033[0m"
-echo -e "\\E[0;44;37m      ⇱ XRAY Vless WS User Login ⇲        \E[0m"
-echo -e "\033[0;34m══════════════════════════════════════════\033[0m"
+data=echo -n > /tmp/other.txt
+data=( `cat /etc/xray/vless.json | grep '^vls' | cut -d ' ' -f 2`);
+echo -e "-------------------------------";
+echo -e "${green}XRAY VLESS WS USER LOGIN${NC}";
+echo -e "-------------------------------";
 for akun in "${data[@]}"
 do
 if [[ -z "$akun" ]]; then
@@ -1234,14 +1235,17 @@ else
 jum2=$(cat /tmp/ipvless.txt | nl)
 echo "user : $akun";
 echo "$jum2";
-echo ""
-echo -e "\e[$line══════════════════════════════════════════\e[m"
+echo "-------------------------------"
 fi
 rm -rf /tmp/ipvless.txt
-rm -rf /tmp/other.txt
 done
+oth=$(cat /tmp/other.txt | sort | uniq | nl)
+echo "other";
+echo "$oth";
+echo "-------------------------------"
+rm -rf /tmp/other.txt
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu xray"
+read -n 1 -s -r -p "Press any key to back on menu"
 xraay
 }
 
