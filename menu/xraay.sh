@@ -1237,7 +1237,7 @@ echo "$jum2";
 echo ""
 echo -e "\e[$line══════════════════════════════════════════\e[m"
 fi
-rm -rf /tmp/ipvmess.txt
+rm -rf /tmp/ipvless.txt
 rm -rf /tmp/other.txt
 done
 echo ""
