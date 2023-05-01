@@ -127,7 +127,7 @@ echo "  Order ID      : $id"
 echo "  Register Date : $hariini"
 echo "  Expired Date  : $exp"
 echo "  Client Name   : $client"
-echo "  Script Ver    : AQUAGURL_MULTIPORT"
+echo "  Script Ver    : Senip Script 1.4"
 echo -e "\033[0;34m----------------------------------------\033[0m"
 echo " Update & Upgrade First Your VPS for Debian 10 & 11: "
 echo ""
@@ -321,8 +321,8 @@ rm -rf /root/allow
 rm -rf /root/data
 rm -rf /root/ipvps.conf
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu-addip"
-addip
+read -n 1 -s -r -p "Press any key to back on add ip menu"
+add
 }
 
 clear
