@@ -1205,7 +1205,7 @@ xraay
 function menu12 () {
 clear
 echo -n > /tmp/other.txt
-data=( `cat /usr/local/etc/xray/vless.json | grep '^#vls' | cut -d ' ' -f 2`);
+data=( `cat /usr/local/etc/xray/vless.json | grep '^###' | cut -d ' ' -f 2`);
 echo -e "\033[0;34m══════════════════════════════════════════\033[0m"
 echo -e "\\E[0;44;37m      ⇱ XRAY Vless WS User Login ⇲        \E[0m"
 echo -e "\033[0;34m══════════════════════════════════════════\033[0m"
